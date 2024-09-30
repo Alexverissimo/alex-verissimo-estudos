@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 239, 239);
+  color: rgb(0, 0, 0);
+}
+
+.loading {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #333;
+  height: 100vh;
+  width: 100vw;
+}
+
+.jokes {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background-color: rgb(152, 152, 152);
+  border-radius: 10px;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.teste {
+  background-color: #9b9a9a;
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    0 6px 20px rgba(0, 0, 0, 0.19);
+  max-width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  width: 100px;
+  background-color: rgb(233, 233, 241);
+  transition: box-shadow 0.6s ease;
+}
+button:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
